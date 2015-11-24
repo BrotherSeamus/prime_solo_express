@@ -9,8 +9,8 @@ app.get('/', function(req, res, next){
 	res.sendFile(path.join(__dirname, './index.html'))
 })
 
-app.get('/balance', function(reg, res, next){
+app.get('/balance', function(req, res, next){
 	res.send(account.balance())
 })
 
-app.listen(3000, function(){});
+app.listen(process.env.PORT || 3000, function(){});
