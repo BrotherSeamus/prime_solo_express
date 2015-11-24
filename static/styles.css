@@ -1,0 +1,26 @@
+body {
+	background-color: black;
+	padding: 40px;
+}
+h1 {
+	font-size: 45px;
+	color: white;
+	text-align: center;
+}
+main {
+	position: relative;
+}
+div{
+	text-align: center;
+}
+p {
+	font-size: 30px;
+	color: #ffad33;
+	text-align: center;
+}
+button {
+	text-align: center;
+}
+button:hover {
+	background-color: #66ff33;
+}
